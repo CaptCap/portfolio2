@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze:wght@300&family=Mansalva&family=Roboto:wght@300&family=Turret+Road:wght@300&display=swap');
+
+button{
+    background-color: blueviolet;
+    color: azure;
+    padding: 1rem;
+    border-radius: 1rem;
+}

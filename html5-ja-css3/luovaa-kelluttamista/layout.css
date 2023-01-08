@@ -1,0 +1,100 @@
+body {
+    
+    box-sizing: border-box;
+
+    
+    
+}
+
+.container{
+   
+    
+    box-sizing: border-box;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gainsboro;
+    background-image: linear-gradient( to bottom right, gainsboro, white);
+    padding: 1em;
+    
+    
+}
+.clearfix {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+ 
+  
+  .container .heading {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+
+  }
+  .heading h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+
+  }
+  .text p {
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  .container .image {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  .container .text {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+  }
+
+  .container .image img {
+    padding: 5px;
+    border-left: 1px solid lightgrey ;
+    border-top: 1px solid lightgrey ;
+    border-right: 1px solid darkgray ;
+    border-bottom: 1px solid darkgray ;
+    box-shadow: 3px 3px darkgray ;
+    max-width: 100%;
+  }
+  .reverse .heading{
+
+  }
+  .reverse .text {
+
+  }
+  .reverse .image {
+
+  }
+  .reverse .image img {
+
+  }
+
+  @media screen and (max-width:425px) {
+    body {
+        margin: 0 0 0 0;
+    }
+    .container {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        min-width: 320px;
+        padding: 10px;
+    }
+    
+  }
+  

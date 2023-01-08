@@ -1,0 +1,39 @@
+
+body{
+    background-color: antiquewhite;
+    
+}
+header{
+    padding-left: 10px;
+    border-block: 1px dashed;
+    border-inline: 1px dashed ;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    border-block: 1px dashed;
+    border-inline: 1px dashed ;
+}
+footer{
+    
+    border-block: 1px dashed;
+    border-inline: 1px dashed ;
+
+}
+/* figure{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    
+    
+}
+
+#rinnakain{
+    display: flex;
+    justify-content: flex-end;
+    
+
+} */
